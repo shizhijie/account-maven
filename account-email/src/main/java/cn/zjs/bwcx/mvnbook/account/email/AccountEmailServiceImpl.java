@@ -5,7 +5,9 @@ import javax.mail.internet.MimeMessage;
 
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AccountEmailServiceImpl implements AccountEmailService {
 
 	private JavaMailSender javaMailSender;
